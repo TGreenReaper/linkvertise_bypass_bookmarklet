@@ -12,5 +12,6 @@ if(option) {
     }
   } else {
     alert("Re run it but only include numbers")
-  }
+  } else if(option == null) {
+    alert("Re Run it but put a fucking option")
 }
